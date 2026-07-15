@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+release/
+*.tsbuildinfo
+
+# Local env / tooling (keep .env.example)
+.env
+.env.desktop
+.env.local
+.neon
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db

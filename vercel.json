@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/manifest.webmanifest", "destination": "/manifest.webmanifest" },
+    { "source": "/sw.js", "destination": "/sw.js" },
+    { "source": "/registerSW.js", "destination": "/registerSW.js" },
+    { "source": "/icon.svg", "destination": "/icon.svg" },
+    { "source": "/((?!assets/|manifest\\.webmanifest|sw\\.js|registerSW\\.js|icon\\.svg).*)", "destination": "/index.html" }
+  ]
+}
